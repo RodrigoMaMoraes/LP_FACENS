@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    body {
+        background-image: url(FOTO01.jpg);
+    }
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: rgb(179, 255, 0);
+    padding: 10px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0px; 
+    left: 0;
+    width: 200px; /* Largura do menu lateral */
+    height: calc(100% - 40px); /* Altura da janela menos a altura do menu superior */
+    background-color: #797979;
+    padding: 20px;
+}
+
+main {
+    margin-left: 190px;
+    padding: 20px;
+    color: #ff00c8;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+}
+
+.sidebar h2 {
+    margin-top: 0; 
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 25px; 
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #00ff40;
+}
+
+.sidebar ul li a:hover {
+    color: #ff00c8;
+}
